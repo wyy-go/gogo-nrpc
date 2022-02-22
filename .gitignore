@@ -18,7 +18,8 @@
 
 examples/helloworld/greeter_client/greeter_client*
 examples/helloworld/greeter_server/greeter_server*
-examples/alloptions/alloptions*
+examples/alloptions/alloptions
+examples/alloptions/alloptions.exe
 examples/metrics_helloworld/metrics_greeter_client/metrics_greeter_client*
 examples/metrics_helloworld/metrics_greeter_server/metrics_greeter_server*
 examples/nats-server/nats-server*
