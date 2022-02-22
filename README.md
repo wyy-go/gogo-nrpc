@@ -1,35 +1,22 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/wyy-go/go-cli-template?style=social)
-![GitHub](https://img.shields.io/github/license/wyy-go/go-cli-template)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/wyy-go/go-cli-template)
-![GitHub all releases](https://img.shields.io/github/downloads/wyy-go/go-cli-template/total)
-![GitHub CI Status](https://img.shields.io/github/workflow/status/wyy-go/go-cli-template/ci?label=CI)
-![GitHub Release Status](https://img.shields.io/github/workflow/status/wyy-go/go-cli-template/Release?label=release)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wyy-go/go-cli-template)](https://goreportcard.com/report/github.com/wyy-go/go-cli-template)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/wyy-go/go-cli-template?tab=doc)
-[![codecov](https://codecov.io/gh/wyy-go/go-cli-template/branch/main/graph/badge.svg)](https://codecov.io/gh/wyy-go/go-cli-template)
+# gogo-nRPC
 
-# go-cli-template
-This is template that help you to quick implement some CLI using Go.
+![GitHub Repo stars](https://img.shields.io/github/stars/wyy-go/gogo-nrpc?style=social)
+![GitHub](https://img.shields.io/github/license/wyy-go/gogo-nrpc)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/wyy-go/gogo-nrpc)
+![GitHub all releases](https://img.shields.io/github/downloads/wyy-go/gogo-nrpc/total)
+![GitHub CI Status](https://img.shields.io/github/workflow/status/wyy-go/gogo-nrpc/ci?label=CI)
+![GitHub Release Status](https://img.shields.io/github/workflow/status/wyy-go/gogo-nrpc/Release?label=release)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wyy-go/gogo-nrpc)](https://goreportcard.com/report/github.com/wyy-go/gogo-nrpc)
+[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/wyy-go/gogo-nrpc?tab=doc)
+[![codecov](https://codecov.io/gh/wyy-go/gogo-nrpc/branch/main/graph/badge.svg)](https://codecov.io/gh/wyy-go/gogo-nrpc)
 
-This repository is contains following.
+nRPC is an RPC framework like [gRPC](https://grpc.io/), but for [NATS](https://nats.io/).
 
-- minimal CLI implementation using [spf13/cobra](https://github.com/spf13/cobra)
-- CI/CD
-  - [golangci-lint](https://golangci-lint.run/usage/linters/)
-  - go test
-  - goreleaser
-  - dependabot for github-actions and Go
-  - CodeQL Analysis (Go)
+This is a gogo-based version of [nrpc](https://github.com/wyy-go/nrpc).
+Please refer to its documentation.
 
-## How to use
-1. fork this repository
-2. replace `wyy-go` to your user name using `sed`(or others)
-3. run `make init`
+To generate the .nrpc files, use "--gogo-nrpc_out" instead of "--nrpc_out"
 
-## Author
-wyy-go
-
-## References
-
-- [go-cli-template](https://github.com/skanehira/go-cli-template)
-
+## Reference
+* https://github.com/nats-rpc/nrpc
+* https://github.com/nats-rpc/gogo-nrpc

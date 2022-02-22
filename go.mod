@@ -1,10 +1,12 @@
-module github.com/wyy-go/go-cli-template
+module github.com/wyy-go/gogo-nrpc
 
-go 1.17
-
-require github.com/spf13/cobra v1.2.1
+go 1.16
 
 require (
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/gogo/protobuf v1.3.2
+	github.com/nats-io/nats-server/v2 v2.7.2
+	github.com/nats-io/nats.go v1.13.1-0.20220121202836-972a071d373d
+	github.com/prometheus/client_golang v1.11.0
+	github.com/stretchr/testify v1.7.0
+	google.golang.org/protobuf v1.26.0 // indirect
 )
